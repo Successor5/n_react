@@ -1,0 +1,6 @@
+.mainContainer{
+    background-color: black;
+        background: linear-gradient(to bottom, rgba(0,0,0,0), #000);
+        height: 100%;
+      }
+      

@@ -1,0 +1,41 @@
+.CycleApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+  }
+  
+  .cycle {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  .down {
+    margin-left: 20px;
+  }
+  
+  h3 {
+    margin: cm;
+  }
+  
+  input {
+    margin: 50px 0;
+  }
+  
+  button {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  

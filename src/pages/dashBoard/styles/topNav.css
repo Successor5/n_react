@@ -1,0 +1,88 @@
+.One{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 15%;
+}
+.p{
+    font-size: 2rem;
+    color: red;
+}
+.container{
+    
+    background-color: blue;
+    height: 12cm;
+    clip:calc(padding-right);
+    text-align: center;
+    padding-top: 7%;
+    color: wheat;
+}
+.container2{
+    
+    text-align:center;
+    background-color: aliceblue;
+    height: 10cm;
+    padding: right 30px;;
+}
+.contain{
+    display: flex;
+}
+
+.c1{
+margin-left: 20rem;
+}
+.div1{
+    margin-left: 200000cm;
+}
+
+.c2{
+    margin-left: 15rem;
+}
+.c3{
+    margin-left:10cm;
+}
+
+.list{
+    margin-top: auto;
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    height: 8cm;
+    padding-left: 5cm;
+}
+.mandown{
+    display: flex;
+    margin-bottom: 5cm;
+    justify-content: space-around;
+    height: 5cm;
+}
+.mandown2{
+    justify-content: space-around;
+    height: 10cm;
+    margin-left: 5cm;
+    display: flex;
+}
+.down{
+    margin-right: 10cm;
+    padding-left: 5cm;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 20cm;
+}
+.inside{
+    margin-left: 1cm;
+
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+}
+.black{
+    background-color: black;
+    height: 10cm;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}

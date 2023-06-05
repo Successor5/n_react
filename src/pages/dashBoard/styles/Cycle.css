@@ -1,0 +1,377 @@
+/* .cycleApp{
+    background-color: black;
+    border: solid 2px black;
+    height: 100vh;
+    text-align: center;
+    transition:4s;
+}
+.tainer{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    color: whitesmoke;
+    width: 99.7%;
+    border-color: aliceblue;
+    font-style: italic;
+    cursor: pointer;
+}
+.container1{
+    text-align: center;
+    
+}
+.container:hover{
+    background-color: rgb(3, 3, 29);
+    color: white;
+    border-radius: 3cm;
+    height: 85vh;
+    margin-bottom: 2cm;
+    width: 33cm;
+    margin-left: 0.3cm;
+    
+}
+.container2{
+    height: 2cm;
+    width: 99.4%;
+    display: flex;
+    text-align: center;
+}
+.small2{
+    border: solid blue;
+    margin-left: 2cm;
+    width: 5cm;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: black;
+
+    transition: all 1.3s ease;
+}
+.small2:hover{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-left: 3cm;
+}
+.small3{
+    background-color: black;
+    border: solid blue;
+    margin-left: 9cm;
+    width: 5cm;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 1.3s ease;
+
+}
+.small3:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+margin-left: 8cm;
+
+}
+.container3{
+    margin-top: 1cm;
+    height: 2cm;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    
+    
+}
+.small4{
+    border: solid black;
+    margin-left: 2cm;
+    width: 5cm;
+    border-radius: 
+    15px;
+    background-color: black;
+    cursor: pointer;
+    transition: all 1.3s ease;
+
+}
+.small4:hover{
+    background-color:blue;
+    color: white;
+    border-radius: 30px;
+    margin-left: 2cm;
+
+}
+.small5{
+    border: solid blue;
+    margin-left: 4cm;
+    width: 5cm;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 1.3s ease;
+    background-color: black;
+
+}
+.small5:hover{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-left: 4cm;
+
+
+}
+.container4{
+    margin-top: 1cm;
+    height: 2cm;
+    width: 100%;
+    display: flex;
+    text-align: center;
+
+
+}
+.small5{
+    border: solid blue;
+    margin-left: 2cm;
+    width: 5cm;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 1.3s ease;
+    background-color: black;
+
+}
+.small5:hover{
+    background-color:black;
+    color: white;
+    border-radius: 30px;
+    margin-left: 4cm;
+
+}
+
+.small8{
+    border: solid 2px blue;
+    margin-left: 9cm;
+    width: 5cm;
+    height: 1.9cm;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: black;
+
+    transition: all 1.3s ease;
+}
+.small8:hover{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-left: 8cm;
+
+}
+#next-button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px green;
+    transition: all 1.3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #next-button:hover{
+    background-color: purple;
+    border-radius: 30px;
+    color: #000;
+    transition: 3s;
+    margin-bottom: 20px;
+  }
+  
+   
+   
+
+   .netflix-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .logo {
+    position: relative;
+    width: 150px;
+    height: 60px;
+    background-color: red;
+  }
+  
+  .animate {
+    animation: animateLogo 1.5s linear infinite;
+  }
+  
+  @keyframes animateLogo {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  */
+  /* .netflix-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .n-animation {
+    width: 100px;
+    height: 120px;
+    position: relative;
+  }
+  
+  .n-bar {
+    width: 20px;
+    height: 120px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    transform-origin: bottom;
+    animation: animateN 2s ease-in-out infinite;
+  }
+  
+  .n-bar1 {
+    left: 0;
+    animation-delay: 0s;
+  }
+  .n-bar2 {
+    left: 40px;
+    animation-delay: 0.5s;
+    transform: skewX(14deg);
+  }
+  
+  .n-bar3 {
+    left: 55px;
+    animation-delay: 0.8s;
+  }
+  
+  @keyframes animateN {
+    0% {
+      height: 0;
+    }
+    60% {
+      height: 120px;
+    }
+    100% {
+      height: 120px;
+    }
+  }
+   */
+  /* .netflix-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .n-animation {
+    width: 100px;
+    height: 120px;
+    position: relative;
+  }
+  .n-bar {
+    width: 20px;
+    height: 0;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    transform-origin: top;
+    animation: animateN 2s ease-in-out infinite;
+  }
+  
+  .n-bar1 {
+    left: 10px;
+    animation-delay: 10s;
+    transform-origin: top;
+    transform: 3s;
+
+  }
+  
+  .n-bar2 {
+    left: 15px;
+    animation-delay: 0.8s;
+    transform: skewX(30deg);
+  }
+  
+  .n-bar3 {
+    left: 85px;
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes animateN {
+    0% {
+      height: 0;
+    }
+    500% {
+      height: 120px;
+    }
+    100% {
+      height: 120px;
+    }
+  }
+   */
+   .netflix-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .n-animation {
+    width: 100px;
+    height: 120px;
+    position: relative;
+  }
+  
+  .n-bar {
+    width: 20px;
+    height: 120px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    transform-origin: bottom;
+    box-shadow: 0 0 8px black;
+    animation: animateN 2s ease-in infinite;
+  }
+  
+  .n-bar1 {
+    left: 0;
+    animation-delay: 0s;
+  }
+  
+  .n-bar2 {
+    left: 68.2px;
+    animation-delay: 0.8s;
+    transform: skewX(30deg);
+    animation-direction: reverse; /* Added to reverse the animation direction */
+  }
+  
+  .n-bar3 {
+    left: 67px;
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes animateN {
+    0% {
+      height: 0;
+    }
+    50% {
+      height: 120px;
+    }
+    100% {
+      height: 120px;
+    }
+  }
+  
